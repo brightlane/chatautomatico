@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Sitemap: https://brightlane.github.io/sitemap.xml
+Sitemap: https://brightlane.github.io/manychat-sitemap.xml
+
+# Target the Chinese Market
+User-agent: Baiduspider
+Allow: /manychat/zh-
+
+# Target the Russian/Eastern European Market
+User-agent: Yandex
+Allow: /manychat/
+
+# Target the Arabic/Middle Eastern Market
+User-agent: Naver
+Allow: /manychat/ar-
