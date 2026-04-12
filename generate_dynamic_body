@@ -1,0 +1,11 @@
+# --- 2026 FRESHNESS INJECTOR ---
+TREND_PHRASES = [
+    "Optimized for 2026 AI Search Algorithms",
+    "Verified ManyChat Partner Audit - April 2026",
+    "Updated Multi-Channel Flow Logic for WhatsApp 2.0",
+    "New: Integrated JSON-LD for Bing Rich Snippets",
+    "2026 Conversion Benchmark: +24% Lead Velocity"
+]
+
+# Inside your get_template function, add:
+# random_trend = random.choice(TREND_PHRASES)
