@@ -98,3 +98,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+# Footer Mesh for Indexing
+    mesh_links = ""
+    for l_code, l_info in LANGS.items():
+        mesh_links += f'<a href="{l_code}-{kw.lower().replace(" ", "-")}.html" style="margin:0 10px;">{l_info["tag"]} ({l_code.upper()})</a>'
+
+    return f"""
+    ...
+    <div class="mesh-network" style="text-align:center; margin-top:50px; padding:20px; border-top:1px solid #ddd;">
+        <h3>Global Editions</h3>
+        {mesh_links}
+    </div>
+    ...
+    """
